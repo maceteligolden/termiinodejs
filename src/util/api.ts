@@ -8,14 +8,6 @@ export const TermiiApi = axios.create({
     }
 })
 
-export const setPublicKey = async (publicKey: string) => {
-    try {
-        TermiiApi.defaults.headers.common['x-api-key'] = publicKey;
-    } catch {
-        throw new Error('Error occurred when setting public key')
-    }
-}
-
 export const setSecretKey = async (secretKey: string) => {
     try {
         TermiiApi.defaults.headers.common['Authorization'] = `Bearer ${secretKey}`
