@@ -47,10 +47,10 @@ const sendMessage = async () => {
   }
 };
 ```
-[More details on this feature](https://developers.termii.com/messaging#send-message)
+###[More details on this feature](https://developers.termii.com/messaging#send-message)
 ----
 ## Support
-[Report Issue](https://github.com/maceteligolden/termiinodejs/issues)
+###[Report Issue](https://github.com/maceteligolden/termiinodejs/issues)
 ---
 ## Todo 
 - Send ID API
