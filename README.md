@@ -1,5 +1,5 @@
 # Termii NodeJS SDK
----
+
 ## Setup
 
 ```bash 
