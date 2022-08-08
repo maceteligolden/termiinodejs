@@ -23,7 +23,7 @@ const termii = new Termii(API_KEY, SECRET_KEY);
 # How to use
 
 ## Message API
-## `Send Meesage`
+### `Send Meesage`
 
 Sending Single Messages to customers 
 
