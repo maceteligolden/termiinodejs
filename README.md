@@ -47,5 +47,30 @@ const sendMessage = async () => {
   }
 };
 ```
-<a href="https://developers.termii.com/messaging#send-message" target="_blank"> More details on the feature </a>
+[More details on this feature](https://developers.termii.com/messaging#send-message)
 ----
+## Support
+[Report Issue](https://github.com/maceteligolden/termiinodejs/issues)
+---
+## Todo 
+- Send ID API
+- Number API
+- Template API
+- Campaign API
+- Send Token
+- Voice Token
+- Voice Call
+- Verify Token
+- In-App Token
+- Inbox (incoming)
+- Events and Report
+- Balance
+- Search
+- Status
+- History
+
+
+## Contact Me
+EMAIL: maceteligolden@gmail.com
+TWITTER: @golden_eteli
+
