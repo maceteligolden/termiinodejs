@@ -16,7 +16,7 @@ npm install @goldenmaceteli/termiinodejs
 ## How to use
 
 ### Message API
-### `Send Meesage`
+### `Send Message`
 
 Sending Single Messages to customers 
 
@@ -72,5 +72,6 @@ const sendMessage = async () => {
 
 ## Contact Me
 EMAIL: maceteligolden@gmail.com
+
 TWITTER: @golden_eteli
 
