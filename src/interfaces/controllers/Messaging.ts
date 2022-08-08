@@ -1,6 +1,6 @@
-import { ISendBulkMessage, ISendMessage } from "../services/Messaging";
+import { ISendBulkPayload, ISendPayload } from "../services/Messaging";
 
 export interface IMessage {
-    sendMessage(args: ISendMessage): Promise<any>
-    sendBulkMessage(args: ISendBulkMessage): Promise<any>
+    sendMessage(args: ISendPayload): Promise<any>
+    sendBulkMessage(args: ISendBulkPayload): Promise<any>
 }

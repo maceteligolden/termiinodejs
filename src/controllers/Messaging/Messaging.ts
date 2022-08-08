@@ -1,5 +1,5 @@
 import { IMessage } from "../../interfaces/controllers/Messaging"
-import { ISendBulkMessage, ISendMessage } from "../../interfaces/services/Messaging"
+import { ISendBulkPayload, ISendPayload} from "../../interfaces/services/Messaging"
 import { sendBulkMessage } from "../../services/Messaging/SendBulkMessage"
 import { sendMessage } from "../../services/Messaging/SendMessage"
 
@@ -14,7 +14,7 @@ export default class Messaging implements IMessage {
         this.secret_key = secret_key;
     }
 
-    async sendMessage(args: ISendMessage): Promise<any> {
+    async sendMessage(args: ISendPayload): Promise<any> {
         try {
             return await sendMessage({
                 ...args,
@@ -26,7 +26,7 @@ export default class Messaging implements IMessage {
         }
     }
 
-    async sendBulkMessage(args: ISendBulkMessage): Promise<any> {
+    async sendBulkMessage(args: ISendBulkPayload): Promise<any> {
         try {
             return await sendBulkMessage({
                 ...args,
