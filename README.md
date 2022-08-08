@@ -3,13 +3,7 @@
 ## Setup
 
 ```bash 
-npm install termii-node-sdk
-```
-
-```javascript
-const Termii = require('termii-node-sdk');
-
-const termii = new Termii(API_KEY, SECRET_KEY);
+npm install @goldenmaceteli/termiinodejs
 ```
 
 ## Available Features
@@ -27,7 +21,7 @@ const termii = new Termii(API_KEY, SECRET_KEY);
 Sending Single Messages to customers 
 
 ```javascript
-const Termii = require('termii-node-sdk');
+const Termii = require('@goldenmaceteli/termiinodejs');
 
 const termii = new Termii(API_KEY, SECRET_KEY);
 
@@ -39,7 +33,6 @@ const sendMessage = async () => {
        "sms": "Hi there, testing Termii",
        "type": "plain",
        "channel": "generic",
-       "api_key": "Your API Key",
        "media": {
         "url": "https://media.example.com/file",
         "caption": "your media file"
