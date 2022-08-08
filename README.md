@@ -22,7 +22,7 @@ const termii = new Termii(API_KEY, SECRET_KEY);
 
 # How to use
 
-## Message API
+### Message API
 ### `Send Meesage`
 
 Sending Single Messages to customers 
@@ -56,3 +56,4 @@ const sendMessage = async () => {
 };
 ```
 <a href="https://developers.termii.com/messaging#send-message" target="_blank"> More details on the feature </a>
+----
