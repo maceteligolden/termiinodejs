@@ -1,6 +1,6 @@
-#### Termii NodeJS SDK
-
-### Setup
+# Termii NodeJS SDK
+---
+## Setup
 
 ```bash 
 npm install termii-node-sdk
@@ -18,9 +18,8 @@ const termii = new Termii(API_KEY, SECRET_KEY);
 
 - SendMessage
 - SendBulkMessage
-
-
-# How to use
+---
+## How to use
 
 ### Message API
 ### `Send Meesage`
